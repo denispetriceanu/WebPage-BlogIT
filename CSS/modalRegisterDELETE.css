@@ -1,0 +1,56 @@
+#modalRegister {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: disabled;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+
+.modal-body {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.content {
+  background-color: #36454f;
+  /* margin: auto auto; 15% from the top and centered */
+  margin: 2% auto;
+  padding: 10px;
+  border: 2px solid #888;
+  width: 70%; /* Could be more or less, depending on screen size */
+}
+
+.form-inline input {
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  width: 400px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
+
+.newmod {
+  cursor: pointer;
+}

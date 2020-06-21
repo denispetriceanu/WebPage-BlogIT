@@ -1,0 +1,37 @@
+<div class="bg-contact3" style="background-image: url('images/bg-01.jpg'); margin-top: -30px;">
+    <div class="container-contact3">
+        <div class="wrap-contact3">
+            <form class="contact3-form validate-form" action="javascript:void(0)">
+                <span class="contact3-form-title">
+                    Contactează-ne
+                </span>
+
+                <div class="wrap-input3 validate-input" data-validate="Name is required">
+                    <input class="input3" type="text" name="name" id="nameToContact" placeholder="Nume si prenume"
+                        required>
+                    <span class="focus-input3"></span>
+                </div>
+
+                <div class="wrap-input3 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                    <input class="input3" type="text" name="email" id="emailToContact" placeholder="Email" required>
+                    <span class="focus-input3"></span>
+                </div>
+
+                <div class="wrap-input3 validate-input" data-validate="Message is required">
+                    <textarea class="input3" name="message" id="messageToContact" placeholder="Mesajul dumneavoastră"
+                        maxlength="200"></textarea>
+                    <span class="focus-input3"></span>
+                </div>
+
+                <div class="container-contact3-form-btn">
+                    <button type="button" class="contact3-form-btn" style="margin-left: auto; margin-right: auto;"
+                        onclick="sendMessageContact()">
+                        Trimite
+                    </button>
+                    <div class="aler alert-danger" style="display: none;" id="showErrorContact"></div>
+                    <div class="aler alert-success" style="display: none; font-size: 17px;" id="showSuccessContact"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

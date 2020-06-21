@@ -1,0 +1,39 @@
+<div class="container pt-1">
+    <div class="row justify-content-sm-center">
+        <div class="col-sm-12 col-md-10">
+            <div class="card border-info">
+                <div class="card-header">Conectează-te pentru a continua!</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6 text-center">
+                            <img src="images/1.jpg" id="imagineLogin">
+                            <h4 class="text-center">BlogIT&Denis</h4>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-signin">
+                                <input type="text" class="form-control mb-2" placeholder="Email"
+                                    style="font-size: 20px;" id="inputNameLogin" required autofocus>
+                                <input type="password" class="form-control mb-2" id="inputPassLogin"
+                                    placeholder="Password" style="font-size: 20px;" required>
+                                <label class="checkbox float-left" style="font-size: 15px;">
+                                    <input type="checkbox" value="remember-me" id="checkMyPo">
+                                    Sunt de acord cu termenii și conțiile.<a href="www.google.ro"
+                                        style="color:rgb(73, 73, 201); font-size: 12px; padding-top:3px;"> Mai multe
+                                        informații</a>
+                                </label>
+                                <button class="btn btn-lg btn-primary btn-block mb-1" type="button" id="trimite"
+                                    onclick="login()">Sign in</button>
+                                <label class="checkbox float-left" style="font-size: 15px;">
+                                    <div class="alert alert-danger" id="showErrorLogin" style="display: none;"></div>
+                                    <div class="alert alert-success" id="showSuccessLogin" style="display: none;"></div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="javascript:void(0)" class="float-right" onclick="change(5)"
+                style="color:rgb(73, 73, 201)">Crează-ți cont!</a>
+        </div>
+    </div>
+</div>

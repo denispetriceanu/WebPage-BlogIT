@@ -1,0 +1,36 @@
+/*Cookie Consent Begin*/
+#clasCookie {
+  background-color: rgb(0, 45, 86);
+  min-height: 26px;
+  font-size: 17px;
+  color: #d65555;
+  line-height: 26px;
+  padding: 12px 12px 10px 20px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+#clasCookie a {
+  color: #4b8ee7;
+  text-decoration: none;
+  margin-right: 0px;
+}
+
+.xCookie {
+    float: right;
+    margin-right: 5px;
+    margin-bottom: -7px;
+    cursor: pointer;
+}
+
+.myButonCookie {
+    float: right;
+    width: 107px;
+    height: auto;
+    color: black;
+    margin-right: 50px;
+}
+/*Cookie Consent End*/

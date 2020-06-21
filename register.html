@@ -1,0 +1,46 @@
+<script>
+    $('#formularRegister').load(function () {
+        alert('Image loaded');
+    })
+</script>
+
+<div class="register-form" id="formularRegister">
+    <script>closeModal()</script>
+    <div class="form">
+        <div class="note">
+            <p style="font-size: 20px; color: white; padding-top: 8px;">Înregistrează-te! <br>Astfel vei putea să ai
+                parte
+                de serviciile noastre fără limite</p>
+        </div>
+        <div class="form-content">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Nume" id="nameInputRegister" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Email" id="emailInputRegister" value="" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Parola" id="parolaInputRegister"
+                            value="" style="font-size: 21px;" />
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Confirmă parola" id="confirmPassword"
+                            value="" style="font-size: 19px;" />
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btnSubmit" id="buttonSubmitRegister"
+                onclick="register()">Înregistrează-te</button>
+            <button type="button" class="btnSubmit btn-success" id="buttonSubmitRegister" onclick="change(4)"
+                style="float: right; padding-bottom: 32px!important; margin-right: 0;">Loghează-te</button>
+            <div class="alert alert-danger" id="showErrorReg" style="margin-top: 10px; font-size: 15px; display: none;">
+            </div>
+            <div class="alert alert-success" id="showSuccessReg"
+                style="margin-top: 10px; font-size: 15px; display: none;">
+            </div>
+        </div>
+    </div>
